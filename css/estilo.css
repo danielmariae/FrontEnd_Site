@@ -86,9 +86,22 @@ main h1{
   text-align: center;
 }
 
-.galery{
+.carrousel{
   margin-left: 100px;
   margin-right: 100px;
   width: 640px;
   height: 360px;
+  background-color:#007700;
+  overflow: hidden;
+}
+
+.carrousel .photos{
+  width: 500%;
+  animation-name: deslizar;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.carrousel .photos img{
+  width: 19.9%;
 }

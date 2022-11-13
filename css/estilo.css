@@ -96,12 +96,12 @@ main h1{
 }
 
 .carrousel .photos{
-  width: 500%;
+  width: 1000px;
   animation-name: deslizar;
   animation-duration: 10s;
   animation-iteration-count: infinite;
 }
 
 .carrousel .photos img{
-  width: 19.9%;
+  width: 640px;
 }

@@ -96,7 +96,7 @@ main h1{
 }
 
 .carrousel .photos{
-  width: 1000px;
+  width: 640px;
   animation-name: deslizar;
   animation-duration: 10s;
   animation-iteration-count: infinite;

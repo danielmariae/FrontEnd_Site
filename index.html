@@ -4,6 +4,10 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/formatacoes.css">
+        <link rel="stylesheet" href="./bootstrap/css/bootstrap-grid.css">
+        <link rel="stylesheet" href="./bootstrap/css/bootstrap-reboot.css">
+        <link rel="stylesheet" href="./bootstrap/css/bootstrap-utilities.css">
+        <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
         <title>Escolinha do RL - Início</title>
     </head>
     <body>
@@ -25,13 +29,32 @@
         <main>
             <br>
             <h1 style="font-size: 20px;">Trabalho Prático HTML + CSS + JS dos Estudantes Ricardo Parente e Lucas Daniel</h1>
-            <section class="carrousel">
-                <div class="photos">
-                    <img src="./img/carrossel1.jpg" alt="Venha se divertir aqui!">
-                    <img src="./img/carrossel2.jpg" alt="Amistoso contra o Flamengo-RJ">
-                    <img src="./img/carrossel3.jpg" alt="Nossos campos">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-            </section>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/carrossel1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/carrossel2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/carrossel3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </main>
     </body>
 </html>

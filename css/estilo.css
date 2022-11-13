@@ -50,9 +50,9 @@ nav{
   float: right;
   display: inline;
   vertical-align: middle;
-  padding-top: 15px;
+  padding-top: 20px;
   height: 20px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 nav ul li{

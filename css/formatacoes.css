@@ -19,6 +19,7 @@ body{
 header
 {
   width: auto;
+  display: flexbox;
   height: 50px;
   padding-left: 100px;
   padding-right: 100px;

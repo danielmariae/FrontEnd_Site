@@ -20,12 +20,12 @@ abbr[title], dfn[title] {
 	border-bottom:1px dotted;
 	cursor:help;
 }
-/*blockquote, q {
+blockquote, q {
 	quotes:none;
 }
 blockquote:before, blockquote:after, q:before, q:after {
 	content:none;
-}*/
+}
 del {
 	text-decoration:line-through;
 }

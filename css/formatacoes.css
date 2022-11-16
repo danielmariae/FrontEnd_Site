@@ -106,4 +106,6 @@ form{
   font-family: 'Poppins';
   padding-left: 100px;
   padding-right: 100px;
+  border: 1px solid;
+  border-color: #000000;
 }

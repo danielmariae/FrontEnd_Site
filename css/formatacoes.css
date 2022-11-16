@@ -40,6 +40,7 @@ header
 #logotipo-header h1{
   color:#fff;
   font-size: 26px;
+  font-weight: bold;
   padding-top: 10px;
   text-indent: 10px;
   display: inline-block;
@@ -78,7 +79,8 @@ main{
 main p{
   margin-bottom: 10px;
   text-align: justify;
-  font-family: 'Montserrat';
+  font-weight: normal;
+  font-family: 'Poppins';
 }
 
 main h1{

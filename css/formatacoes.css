@@ -93,14 +93,3 @@ main h1{
   background-color:#007700;
   overflow: hidden;
 }
-
-.carrousel .photos{
-  width: 500%;
-  animation-name: deslizar;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-}
-
-.carrousel .photos img{
-  width: 19.9%;
-}

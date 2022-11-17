@@ -36,14 +36,14 @@ header
 #logotipo-header img
 {
   width: 30px;
-  padding-top: 7.5px;
+  padding-top: 10px;
   display: inline-table;
 }
 #logotipo-header h1{
   color:#fff;
   font-size: 26px;
   font-weight: bold;
-  padding-top: 5px;
+  padding-top: 10px;
   text-indent: 10px;
   display: inline-block;
   text-align: center;
@@ -95,9 +95,3 @@ main h1{
   text-align: center;
 }
 
-.carrousel{
-  width: 640px;
-  height: 360px;
-  background-color:#007700;
-  overflow: hidden;
-}

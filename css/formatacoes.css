@@ -1,23 +1,23 @@
 /* Configurações gerais */
 @charset "utf-8";
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
-@import url(https://fonts.googleapis.com/css?family=Poppins);
+@import "./framework.css";
 
 * {
+  
   margin:0px;
   padding:0px;
 }
 
 body{
-  font-family: 'Poppins';
   background-color: #eeeeee;
 }
 
 
 /* Estilos para Header */
 
-.navbar-item a{
+.navbar-item{
   color: #000000;
+  font-family: 'Poppins';
 }
 
 .navbar-item:hover{
@@ -26,7 +26,8 @@ body{
 }
 
 /* Estilos para Abaixo do Header (básico) */
-main{
+.columns{
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
   display: flexbox;
@@ -44,6 +45,7 @@ main p{
 }
 
 main h1{
+  font-family: 'Poppins';
   font-size: 28px;
   font-weight: bold;
   color: #000000;

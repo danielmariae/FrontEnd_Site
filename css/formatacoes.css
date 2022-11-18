@@ -16,6 +16,9 @@ body{
 
 /* Estilos para Header */
 
+.navbar-menu a{
+  color: #fff;
+}
 .navbar img{
   width: auto;
 }
@@ -27,6 +30,10 @@ body{
 .navbar-item:hover{
   transition: 200ms;
   color: #000000;
+}
+
+#my-son-goleiro h1, #my-son-goleiro p{
+  text-align: justify;
 }
 
 /* Estilos para Abaixo do Header (básico) */

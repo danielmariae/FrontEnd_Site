@@ -4846,7 +4846,7 @@ button.dropdown-item.is-active {
   }
 }
 .navbar.is-success {
-  background-color: hsl(153deg, 53%, 53%);
+  background-image:linear-gradient(to bottom, #007700, #00aa00);
   color: #fff;
 }
 .navbar.is-success .navbar-brand > .navbar-item,
@@ -5222,9 +5222,10 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
     display: none;
   }
   .navbar-menu {
-    background-color: hsl(0deg, 0%, 100%);
+    background-color: hsla(0deg, 0%, 100%), 0%;
     box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
     padding: 0.5rem 0;
+  
   }
   .navbar-menu.is-active {
     display: block;

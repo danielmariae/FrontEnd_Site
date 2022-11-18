@@ -10,6 +10,7 @@
 
 body{
   background-color: #eeeeee;
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -42,6 +43,18 @@ main p{
   text-align: justify;
   font-weight: normal;
   font-family: 'Poppins';
+}
+
+.up-index-h2{
+  text-align: center;
+}
+
+main .box .content h1{
+  text-align: center;
+  color: #000000;
+}
+.box{
+  margin-top: 10px;
 }
 
 main h1{

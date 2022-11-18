@@ -4,7 +4,6 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins);
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 
-
 * {
   margin:0px;
   padding:0px;
@@ -16,65 +15,18 @@ body{
 }
 
 
-/* Estilos para Header
-header
-{
-  width: auto;
-  display: flexbox;
-  height: 50px;
-  padding-left: 100px;
-  padding-right: 100px;
-  background-image: linear-gradient(to bottom, #007700, #00aa00);
+/* Estilos para Header */
+
+.navbar-item a{
+  color: #000000;
 }
 
-#logotipo-header{
-  padding-top: 20px;
-  height: 40px;
-  width: 260px;
-  display: inline;
-}
-
-#logotipo-header img
-{
-  width: 30px;
-  padding-top: 10px;
-  display: inline-table;
-}
-#logotipo-header h1{
-  color:#fff;
-  font-size: 26px;
-  font-weight: bold;
-  padding-top: 10px;
-  text-indent: 10px;
-  display: inline-block;
-  text-align: center;
-  vertical-align: top;
-}
-
-nav{
-  float: right;
-  display: inline;
-  vertical-align: middle;
-  padding-top: 12.5px;
-  height: 20px;
-  padding-bottom: 12.5px;
-}
-
-nav ul li{
-  display: inline-block;
-  padding-left: 10px;
-}
-
-nav ul li a{
-  color: #fff;
-}
-
-nav ul li a:hover{
-  color: #aaaaaa;
+.navbar-item:hover{
   transition: 200ms;
+  color: #000000;
 }
 
-Estilos para Abaixo do Header (básico) */
+/* Estilos para Abaixo do Header (básico) */
 main{
   margin-left: 100px;
   margin-right: 100px;
@@ -94,6 +46,10 @@ main h1{
   color: #000000;
   padding-bottom: 8px;
   text-align: center;
+}
+
+.title-menor{
+  font-size: 20px;
 }
 
 /*Carrossel*/

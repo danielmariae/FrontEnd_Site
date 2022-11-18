@@ -4,14 +4,13 @@
 @import "./framework.css";
 
 * {
-  
   margin:0px;
   padding:0px;
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body{
   background-color: #eeeeee;
-  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 

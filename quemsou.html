@@ -8,21 +8,28 @@
         <title>Sobre nós</title>
     </head>
     <body>
-        <header>
-            <div id="logotipo-header">
-                <img src="./img/1775798.png" alt="Logotipo da Escolinha de Futebol RL.">
-                <h1>Escolinha do RL</h1>
+        <nav class="navbar is-success" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="#">
+                    <img src="./img/1775798.png" alt="Logo da Escolinha do RL.">
+                </a>
+                <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="./index.html">Início</a></li>
-                    <li><a href="./quemsou.html">Sobre nós</a></li>
-                    <li><a href="./modalidades.html">Modalidades</a></li>
-                    <li><a href="./instalacoes.html">Campo de Jogos</a></li>
-                    <li><a href="./contato.html">Contato</a></li>
-                </ul>
-            </nav>
-        </header>
+             
+            <div class="navbar-menu" id="navMenu">
+                <div class="navbar-end">
+                <a class="navbar-item has-text-black" href="./index.html">Início</a>
+                <a class="navbar-item has-text-black" href="./quemsou.html">Sobre nós</a>
+                <a class="navbar-item has-text-black" href="./modalidades.html">Modalidades</a>
+                <a class="navbar-item has-text-black" href="./instalacoes.html">Campo de Jogos</a>
+                <a class="navbar-item has-text-black" href="./contato.html">Contato</a>
+                </div>
+            </div>
+        </nav>
 
         <main>
             <div>
@@ -31,5 +38,6 @@
                 <p>Testing about us!</p>
             </div>
         </main>
+        <script src="./js/script.js"></script>
     </body>
 </html>

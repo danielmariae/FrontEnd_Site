@@ -28,13 +28,17 @@ body{
 
 /* Estilos para Abaixo do Header (básico) */
 main{
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flexbox;
+  vertical-align: middle; 
 }
 
 main p{
   margin-bottom: 10px;
   color: #000000;
+  margin-left: 4px;
+  margin-right: 4px;
   text-align: justify;
   font-weight: normal;
   font-family: 'Poppins';

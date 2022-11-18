@@ -22,23 +22,51 @@
              
             <div class="navbar-menu" id="navMenu">
                 <div class="navbar-end">
-                <a class="navbar-item has-text-black" href="./index.html">Início</a>
-                <a class="navbar-item has-text-black" href="./quemsou.html">Quem sou</a>
-                <a class="navbar-item has-text-black" href="./modalidades.html">Modalidades</a>
-                <a class="navbar-item has-text-black" href="./instalacoes.html">Instalações</a>
-                <a class="navbar-item has-text-black" href="./contato.html">Contato</a>
+                <a class="navbar-item" href="./index.html">Início</a>
+                <a class="navbar-item" href="./quemsou.html">Quem sou</a>
+                <a class="navbar-item" href="./modalidades.html">Modalidades</a>
+                <a class="navbar-item" href="./instalacoes.html">Instalações</a>
+                <a class="navbar-item" href="./contato.html">Contato</a>
                 </div>
             </div>
         </nav>
-        <main class="container"> <!-- Classe usada para delimitar os tamanhos. -->
-            <div class="box"> <!-- DIV usada para fazer um efeito de caixa sobre o conteúdo. -->
-                <div class="content"> <!-- DIV usada para a identação automática dos textos. -->
-                    <h1 class="title-menor">Trabalho Prático HTML + CSS + JS dos Estudantes Ricardo Parente e Lucas Daniel</h1>
-                    <p class="block up-index-h2">Este site está sendo desenvolvido como trabalho prático da disciplina de Desenvolvimento Front-End, na Unitins, no curso de Sistemas de Informação, utilizando as tecnologias que aprendemos até agora que são HTML, CSS e JavaScript.</h2>
-                    <p class="block up-index-h2">Estamos usando o Framework Bulma, com adaptações feitas para nossas necessidades.</h2>
+        <main> 
+        <div id="index-apresentacao" class="hero">
+            <div class="container columns">
+                <div class="column is-one-quarter">
+                    <img id="imagem-emcima" src="./img/pngegg (1).png" alt="Uma criança jogando futebol na nossa escolinha.">
+                </div>
+                <div class="column">
+                    <div class="content">
+                    <h1 class="has-text-white">Conheça a melhor escolinha de futebol de Palmas e região!</h1>
+                    <p class="has-text-white">Temos os melhores profissionais e o preparatório mais incrível!</p>
+                    <a href="contato.html" class="button">Fale conosco!</a>
+                    </div>
                 </div>
             </div>
+        </div>
+        <div class="container columns">
+            <div class="column is-one-third">
+                <img id="section1" src="./img/carrossel3.jpg" alt="Um jogador do nosso time próximo a uma bola.">
+            </div>
+            <div class="column">
+                <article class="content">
+                    <h1>Aqui, seu jogo é valorizado.</h1>
+                    <p>Na escolinha do RL, temos os melhores profissionais e o melhor direcionamento, para que nossos jogadores sejam <strong>bem treinados</strong>, desde o <i>primero contato com a bola</i> até a hora de <i>pendurar as chuteiras.</i></p>
+                    <p>Quando entramos em jogo, nossa garra e nossa tradicional força, construída com muita garra e companheirismo fazema diferença na hora do jogo.</p>
+                </article>
+            </div>
+        </div>
+        </div>
+
         </main>
+        <div id="index-info-trabalho" class="container box"> <!-- DIV usada para delimitar os tamanhos e fazer um efeito de caixa sobre o conteúdo. -->
+            <div class="content"> <!-- DIV usada para a identação automática dos textos. -->
+                <h1 class="title-menor">Trabalho Prático HTML + CSS + JS dos Estudantes Ricardo Parente e Lucas Daniel</h1>
+                <p class="block up-index-h2">Este site está sendo desenvolvido como trabalho prático da disciplina de Desenvolvimento Front-End, na Unitins, no curso de Sistemas de Informação, utilizando as tecnologias que aprendemos até agora que são HTML, CSS e JavaScript.</h2>
+                <p class="block up-index-h2">Estamos usando o Framework Bulma, com adaptações feitas para nossas necessidades.</h2>
+            </div>
+        </div>
         <script src="./js/script.js"></script>
     </body>
 </html>

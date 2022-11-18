@@ -16,6 +16,9 @@ body{
 
 /* Estilos para Header */
 
+.navbar img{
+  width: auto;
+}
 .navbar-item{
   color: #000000;
   font-family: 'Poppins';
@@ -49,12 +52,24 @@ main p{
   text-align: center;
 }
 
-main .box .content h1{
-  text-align: center;
-  color: #000000;
+#index-apresentacao{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color:hsla(153deg, 53%, 53%, 100%);
+  background-image: url(../img/carrossel1.jpg);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-.box{
-  margin-top: 10px;
+
+#imagem-emcima {
+  width: 300px;
+}
+
+#section1{
+  width:auto;
+  padding:0px;
+  margin:0px;
 }
 
 main h1{
@@ -63,7 +78,6 @@ main h1{
   font-weight: bold;
   color: #000000;
   padding-bottom: 8px;
-  text-align: center;
 }
 
 .title-menor{
@@ -72,3 +86,12 @@ main h1{
 
 /*Carrossel*/
 
+/* Caixa com informações do trabalho. */
+#index-info-trabalho {
+  text-align: center;
+  color: #000000;
+}
+
+#index-info-trabalho {
+  margin-top: 10px;
+}

@@ -91,6 +91,18 @@ main h1{
   font-size: 20px;
 }
 
+#mid-index{
+  background-color: #007700;
+}
+
+#mid-index h1, #mid-index p{
+  color: #fff;
+} 
+
+#mid-index-img{
+  width: 200px;
+}
+
 /*Carrossel*/
 
 /* Caixa com informações do trabalho. */
@@ -102,3 +114,6 @@ main h1{
 #index-info-trabalho {
   margin-top: 10px;
 }
+
+
+/* #007700, #00aa00

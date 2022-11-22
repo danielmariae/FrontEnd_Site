@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 @import "./reset.css";
 @import "./framework.css";
+@import "../bulma/bulma-carousel/dist/css/bulma-carousel.min.css";
+@import url('https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css');
 
 * {
   margin:0px;

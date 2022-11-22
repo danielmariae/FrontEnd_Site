@@ -79,11 +79,15 @@
                         <a class="button" href="./unidades.html">Clique para ver nossas unidades!</a>
                     </div>
                 </div>
-
             </div>
         </div>
-        </div>
-
+        <section>
+            <div id="slider">
+                <div class="card">
+                
+                </div>
+            </div>
+        </section>
         </main>
         <div id="index-info-trabalho" class="container box"> <!-- DIV usada para delimitar os tamanhos e fazer um efeito de caixa sobre o conteúdo. -->
             <div class="content"> <!-- DIV usada para a identação automática dos textos. -->
@@ -93,5 +97,12 @@
             </div>
         </div>
         <script src="./js/script.js"></script>
+        <script>bulmaCarousel.attach('#slider', {
+            slidesToScroll: 1,
+            slidesToShow: 1,
+            infinite: true,
+            autoplay: true,
+        });
+    </script>
     </body>
 </html>

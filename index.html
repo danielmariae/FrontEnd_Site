@@ -81,13 +81,52 @@
                 </div>
             </div>
         </div>
-        <section>
-            <div id="slider">
-                <div class="card">
-                
-                </div>
-            </div>
-        </section>
+        <div class='container'>
+            <ul class="slider">
+                <li>
+                      <img src="./img/carrossel1.jpg" />
+                </li>
+                <li>
+                      <img src="./img/carrossel1.jpg" />
+                </li>
+                <li>
+                      <img src="./img/carrossel1.jpg" />
+                </li>
+            </ul>        
+        </div>
+        <div class="container columns">
+        <div class="column">
+        <table id="tabelaIMC" class="table is-fullwidth">
+            <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Peso</th>
+                <th>Altura (m)</th>
+                <th>Gordura Corporal (%)</th>
+                <th>IMC</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr class="calcPacientes">
+                    <td class="name">Pedrinho</td>
+                    <td class="info-peso">-50</td>
+                    <td class="info-altura">1.80</td>
+                    <td class="gordura">10%</td>
+                    <td class="imc">0</td>
+                </tr>
+                <tr class="calcPacientes">
+                    <td class="name">José da Silva</td>
+                    <td class="info-peso">70</td>
+                    <td class="info-altura">1.65</td>
+                    <td class="gordura">10%</td>
+                    <td class="imc">0</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        </div>
+        <script src="./js/script.js"></script>
+        <script src="./js/script_2.js"></script>
         </main>
         <div id="index-info-trabalho" class="container box"> <!-- DIV usada para delimitar os tamanhos e fazer um efeito de caixa sobre o conteúdo. -->
             <div class="content"> <!-- DIV usada para a identação automática dos textos. -->
@@ -96,13 +135,5 @@
                 <p class="block up-index-h2">Estamos usando o Framework Bulma, com adaptações feitas para nossas necessidades.</h2>
             </div>
         </div>
-        <script src="./js/script.js"></script>
-        <script>bulmaCarousel.attach('#slider', {
-            slidesToScroll: 1,
-            slidesToShow: 1,
-            infinite: true,
-            autoplay: true,
-        });
-    </script>
-    </body>
+</body>
 </html>

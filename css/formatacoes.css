@@ -3,8 +3,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 @import "./reset.css";
 @import "./framework.css";
-@import "../bulma/bulma-carousel/dist/css/bulma-carousel.min.css";
-@import url('https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css');
 
 * {
   margin:0px;
@@ -107,6 +105,27 @@ main h1{
 
 /*Carrossel*/
 
+.slider {
+  display: block;
+  height: 293px;
+  width: 600px;
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+}
+
+.slider li {
+  list-style: none;
+  position: absolute;
+}
+
+.slider img {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  vertical-align: top;
+}
+
 /* Caixa com informações do trabalho. */
 #index-info-trabalho {
   text-align: center;
@@ -118,4 +137,5 @@ main h1{
 }
 
 
-/* #007700, #00aa00
+/* #007700, #00aa00 */
+

@@ -1,21 +1,28 @@
-document.addEventListener('DOMContentLoaded', () => {
+var slidePosition = 1;
+SlideShow(slidePosition);
 
-    // Pega todos os elementos que estão no navbar (navbarBurguer)
-    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-  
-    // Adiciona uma ação para cada um
-    $navbarBurgers.forEach( el => {
-      el.addEventListener('click', () => {
-  
-        // Pega o elemento do dataTarget atributo
-        const target = el.dataset.target;
-        const $target = document.getElementById(target);
-  
-        // Ativa a classe "is-active" tanto na "navbar-burger" quanto no "navbar-menu"
-        el.classList.toggle('is-active');
-        $target.classList.toggle('is-active');
-  
-      });
-    });
-  });
-  
+// forward/Back controls
+function plusSlides(n) {
+  SlideShow(slidePosition += n);
+}
+
+//  images controls
+function currentSlide(n) {
+  SlideShow(slidePosition = n);
+}
+
+function SlideShow(n) {
+  var i;
+  var slides = document.getElementsByClassName("Containers");
+  var circles = document.getElementsByClassName("dots");
+  if (n > slides.length) {slidePosition = 1}
+  if (n < 1) {slidePosition = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < circles.length; i++) {
+      circles[i].className = circles[i].className.replace(" enable", "");
+  }
+  slides[slidePosition-1].style.display = "block";
+  circles[slidePosition-1].className += " enable";
+} 

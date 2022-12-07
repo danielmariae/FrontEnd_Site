@@ -1,28 +1,26 @@
-var slidePosition = 1;
-SlideShow(slidePosition);
+let slideIndex = 1;
+showSlides(slideIndex);
 
-// forward/Back controls
 function plusSlides(n) {
-  SlideShow(slidePosition += n);
+    showSlides(slideIndex += n);
 }
 
-//  images controls
 function currentSlide(n) {
-  SlideShow(slidePosition = n);
+    showSlides(slideIndex = n);
 }
 
-function SlideShow(n) {
-  var i;
-  var slides = document.getElementsByClassName("Containers");
-  var circles = document.getElementsByClassName("dots");
-  if (n > slides.length) {slidePosition = 1}
-  if (n < 1) {slidePosition = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < circles.length; i++) {
-      circles[i].className = circles[i].className.replace(" enable", "");
-  }
-  slides[slidePosition-1].style.display = "block";
-  circles[slidePosition-1].className += " enable";
-} 
+function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("minhasImagens");
+    let botoes = document.getElementsByClassName("botao");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i=0; i<slides.length; i++){
+        slides[i].style.display = "none";
+    }
+    for (i=0; i<botoes.length; i++){
+        botoes[i].className = botoes[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    botoes[slideIndex-1].className += " active";
+}

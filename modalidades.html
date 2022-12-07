@@ -10,7 +10,7 @@
     <body>
         <nav class="navbar is-success" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
-                <a class="navbar-item" href="#">
+                <a class="navbar-item" href="./index.html">
                     <img src="./img/1775798.png" alt="Logo da Escolinha do RL.">
                 </a>
                 <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
@@ -31,13 +31,157 @@
             </div>
 
         </nav>
-        <main>
-            <div>
-                <br>
-                <h1>Modalidades oferecidas</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, totam similique omnis ducimus accusantium ea, veniam nemo non amet voluptatum ipsa, nobis libero distinctio. Maxime nihil dolores iure repellendus laudantium!</p>
+        <main class="container">
+            <br>
+            <article class="content">
+                <h1 class="h1-center">Modalidades de jogo</h1>
+            </article>
+            <div class="slides">
+                <div class="minhasImagens fade">
+                    <img src="./img/carrossel1.jpg" style="width: 100%">
+                    <div class="slides-text"><a href="http://google.com">Futebol sub-5</a></div>
+                </div>
+                <div class="minhasImagens fade">
+                    <img src="./img/carrossel2.jpg" style="width: 100%">
+                    <div class="slides-text"><a href="http://google.com">Futebol sub-7</a></div>
+                </div>
+                <div class="minhasImagens fade">
+                    <img src="./img/carrossel3.jpg" style="width: 100%">
+                    <div class="slides-text"><a href="http://google.com">Futebol sub-9</a></div>
+                </div>
             </div>
-        </main>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div class="botoes">
+                <span class="botao" onclick="currentSlide(1)"></span>
+                <span class="botao" onclick="currentSlide(2)"></span>
+                <span class="botao" onclick="currentSlide(3)"></span>
+            </div>
+            <div class="content">
+                <div class="columns">
+                    <div class="column">
+                        <h2>Categoria Sub-7</h2>
+                        <p>É aquela categoria para os menores de <i>7 anos completos</i>. Aqui, cuidamos do seu pequeno e ensinamos a ele <b>as melhores táticas</b> que um jogador de futebol pode ter!</p>
+                        <p>Para conhecer dias, horários, disponibilizamos a tabela abaixo.</p>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Dias da semana</th>
+                                    <th>Horários</th>
+                                    <th>Mensalidade</th>
+                                    <th>Professor</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><i>Segunda, quarta e sexta</i></td>
+                                    <td>08h00 às 09h30</td>
+                                    <td>R$ 130,00</td>
+                                    <td><a href="./quemsou.html">Ricardo</a></td>
+                                </tr>
+                                <tr>
+                                    <td><i>Terça, quinta e sábado</i></td>
+                                    <td>14h00 às 15h30</td>
+                                    <td>R$ 130,00</td>
+                                    <td><a href="./quemsou.html">Ricardo</a></td>
+                                </tr>
+                                <tr>
+                                    <td><i>Segunda, quarta e sexta</i></td>
+                                    <td>19h00 às 20h30</td>
+                                    <td>R$ 130,00</td>
+                                    <td><a href="./quemsou.html">Ricardo</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="column is-one-third">
+                        <img alt="" src="./img/hexagono3.png">
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column is-one-third">
+                        <img alt="" src="./img/hexagono4.png">
+                    </div>
+                    <div class="column">
+                        <h2>Categoria Sub-9</h2>
+                        <p>É aquela categoria para os menores de <i>9 anos completos</i>. Para aqueles que são quase grandinhos, oferecemos os melhores treinamentos e criamos verdadeiros <b>monstros</b> dentro de campo!</p>
+                        <p>Para conhecer dias e horários, disponibilizamos a tabela abaixo.</p>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Dias da semana</th>
+                                    <th>Horários</th>
+                                    <th>Mensalidade</th>
+                                    <th>Professor</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><i>Terça, quinta e sábado</i></td>
+                                    <td>08h00 às 09h30</td>
+                                    <td>R$ 130,00</td>
+                                    <td><a href="./quemsou.html">Lucas</a></td>
+                                </tr>
+                                <tr>
+                                    <td><i>Segunda, quarta e sexta</i></td>
+                                    <td>14h00 às 15h30</td>
+                                    <td>R$ 130,00</td>
+                                    <td><a href="./quemsou.html">Lucas</a></td>
+                                </tr>
+                                <tr>
+                                    <td><i>Terça, quinta e sábado</i></td>
+                                    <td>19h00 às 20h30</td>
+                                    <td>R$ 130,00</td>
+                                    <td><a href="./quemsou.html">Lucas</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <h2>Categoria Sub-11</h2>
+                        <p>É aquela categoria para os menores ou iguais a <i>11 anos completos</i>. Para aqueles que são quase grandinhos, oferecemos os melhores treinamentos e criamos verdadeiros <b>monstros</b> dentro de campo!</p>
+                        <p>Para conhecer dias e horários, disponibilizamos a tabela abaixo.</p>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Dias da semana</th>
+                                    <th>Horários</th>
+                                    <th>Mensalidade</th>
+                                    <th>Professor</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><i>Terça, quinta e sábado</i></td>
+                                    <td>08h00 às 09h30</td>
+                                    <td>R$ 130,00</td>
+                                    <td><a href="./quemsou.html">Lucas</a></td>
+                                </tr>
+                                <tr>
+                                    <td><i>Segunda, quarta e sexta</i></td>
+                                    <td>14h00 às 15h30</td>
+                                    <td>R$ 130,00</td>
+                                    <td><a href="./quemsou.html">Lucas</a></td>
+                                </tr>
+                                <tr>
+                                    <td><i>Terça, quinta e sábado</i></td>
+                                    <td>19h00 às 20h30</td>
+                                    <td>R$ 130,00</td>
+                                    <td><a href="./quemsou.html">Lucas</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="column is-one-third">
+                        <img alt="" src="./img/hexagono5.png">
+                    </div>
+                </div>
+            </div>
+            </main>
         <script src="./js/script.js"></script>
+        <script src="./js/script_2.js"></script>
+
     </body>
 </html>

@@ -251,3 +251,9 @@ textarea {
 .unidades-formatar {
   text-align: end;
 }
+
+.teste {
+  float: none;
+  right: 1;
+  display:flexbox;
+}

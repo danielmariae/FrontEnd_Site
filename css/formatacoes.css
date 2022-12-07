@@ -97,18 +97,25 @@ main h1{
   font-size: 20px;
 }
 
-#mid-index{
+.mid-index{
   background-color: #007700;
 }
 
-#mid-index h1, #mid-index p{
+.mid-index h1, #mid-index p{
   color: #fff;
 } 
 
-#mid-index-img{
+.mid-index-img{
   width: 200px;
 }
 
+.paragrafo {
+  color: #fff;
+}
+
+#hero-modalidades{
+  margin-top: 15px;
+}
 /*Carrossel*/
 
 * {
@@ -133,6 +140,7 @@ main h1{
   margin-top: -30px;
   padding: 24px;
   color: #00dd00;
+  background-color: rgba(0,0,0,0.3);
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -203,5 +211,44 @@ main h1{
 
 .h1-center {
   text-align: center;
+  margin-top: 10px;
 }
 
+footer {
+  background-color: #333;
+}
+
+#footer-h1, #footer-p {
+  color: #fff;
+  text-align: justify;
+}
+
+footer img {
+  width: 100px;
+  margin-left: auto;
+  position: relative;
+  left: 50%;
+}
+
+#footer-nav {
+  background-color: #111;
+}
+
+.footer-a {
+  color: #FFF
+}
+
+input {
+  background-color: #fff;
+  width: ;
+  border-color: #000000;
+  border: 1px 1px 1px 1px;
+}
+
+textarea {
+  width: 1em;
+}
+
+.unidades-formatar {
+  text-align: end;
+}
